@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .data {display:inline-block;width:100px;}
+         section {line-height: 30px;}
+         input{type="text"}:invalid{border:1px solid red;}
+         input{type="text"}:valid{border:1px solid blue;}
+
+    </style>
+    
+</head>
+
+<body>
+  <form action="sendData.php" method="post"></form>
+  Lastname: <input type="text" name="lastname"></br>
+  Firstname: <input type="text" name="firstname"><br>
+  
+
+<button><b>Send</b></button>
+
+</form>
+
+Comment <br>
+<textarea name="comment" placeholder="comment"></textarea></br>
+<span class="data">Select List</span>
+<select name="list">
+<optgroup label="Group 1">
+<option value="1.1">Opt 1.1</option>
+<option value="1.2">Opt 1.2</option>
+<option value="1.3">Opt 1.3</option>
+</optgroup>
+<optgroup label="Group 2">
+<option value="2.1">Opt 2.1</option>
+<option value="2.2">Opt 2.2</option>
+<option value="2.3">Opt 2.3</option>
+</optgroup>
+</select><br>
+
+<span class="data">Checkbox</span><br>
+Check 1<input type="checkbox" name="cb[]" value="1"><br>
+Check 2<input type="checkbox" name="cb[]" value="2"><br>
+Check 3<input type="checkbox" name="cb[]" value="3"><br>
+
+
+<span class="data">Radio</span><br>
+<label for="radio1">Radio1</label><input type="radio" name="radioButton" value="1" id="radio1"><br>
+Radio 2<input type="radio" name="radioButton" value="2"><br>
+Radio 3<input type="radio" name="radioButton" value="3"><br>
+
+<input type="date" name="date">
+<input 
+
+
+</body>
+
+</html>
